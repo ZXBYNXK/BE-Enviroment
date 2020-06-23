@@ -4,9 +4,9 @@ const router = Router();
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const { check, validationResult } = require("express-validator");
-const {secretOrKey} = require("./config");
-const Profile = require("../models/Profile");
-const User = require("../models/User");
+const {secretOrKey} = require("../../config");
+const Profile = require("../../models/Profile");
+const User = require("../../models/User");
 const isEmpty = require("../../utils/isEmpty");
 
 const checkRegister = [

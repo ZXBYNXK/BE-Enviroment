@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { dbUri } = "./index.js";
+const { dbUri } = require("./index.js");
 module.exports = connectDatabase = async () => {
   try {
     await mongoose.connect(
