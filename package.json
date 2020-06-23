@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "6-21-Oauth": "nodemon practice/6-21-oauth/",
-    "6-22-bh-e-setup": "nodemon practice/6-22-bh-e-setup/"
+    "practice": "nodemon server.js"
   },
   "repository": {
     "type": "git",
